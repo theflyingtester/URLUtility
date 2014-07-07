@@ -17,3 +17,8 @@ It handles the login and more for a specific RQm server and project.
 The idea is to create the xml you need for creating your desired artifacts, be it test cases plans etc.
 Then create a script that uses the URLUtility and make the upload/creation automatic.
 
+To get my Types:
+java -jar RQMUrlUtility.jar -command GET -user ADMIN -password ADMIN 
+  -filepath RQMUrlUtility_GET.txt 
+  -url "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType?abbreviated=false"
+
