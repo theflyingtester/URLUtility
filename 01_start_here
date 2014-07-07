@@ -1,0 +1,7 @@
+Based on this article
+https://jazz.net/forum/questions/66964/xml-with-api-to-create-category-hiearchies-categorytype
+I am trying to use the URL utility to gather the data
+modify it and upload it again to crate a hierrachy in categories for test artifacts in an RQM project.
+
+To keep things easy and accessible I will use my RQM 5.0 sandbox sample project at jazz.net
+
