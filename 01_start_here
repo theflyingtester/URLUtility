@@ -1,7 +1,23 @@
 Based on this article
 https://jazz.net/forum/questions/66964/xml-with-api-to-create-category-hiearchies-categorytype
-I am trying to use the URL utility to gather the data
-modify it and upload it again to crate a hierrachy in categories for test artifacts in an RQM project.
+I am trying to use the URL utility to gather the data,
+modify it and upload it again to create a hierachy for categories taht can be applied to test artifacts in an RQM project.
+
 
 To keep things easy and accessible I will use my RQM 5.0 sandbox sample project at jazz.net
 
+There is a there is a bi-directional dependency between category/categoryType, 
+but only qm:category.qm:categoryType is required. 
+
+
+1) Create initial categoryType XML files 
+    with DependsOn attributes set BUT NO INCLUSION of category references. PUT these to project.
+
+2) Create initial category XML files that will appear in each CategoryType 
+    (these must reference the CategoryType XML previously PUT) and then PUT all the categories.
+
+3) Now EDIT the original CategoryType files to now include valueset (key+values) 
+    into the orignal files and re-PUT these files.
+
+I now have the completed structure 
+    that I expect and can now PUT all my test cases and other material into the project correctly. 
