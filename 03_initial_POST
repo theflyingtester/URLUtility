@@ -1,0 +1,14 @@
+
+POST to those URI's to create a new artifact
+
+Test Case: 
+http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testcase/urn:com.ibm.rqm:testcase
+
+Test Plan: 
+http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testplan/urn:com.ibm.rqm:testplan
+
+the return will have a 200 OK and an id for the new artifact when your posted xml was good
+
+If you write your own java code instead of using teh URL utility
+the Project Name should be decoded by using URLEncoder.encode(projectname, HTTP.UTF_8)
+
