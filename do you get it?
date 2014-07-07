@@ -1,0 +1,19 @@
+
+
+The download is here:
+https://jazz.net/downloads/rational-quality-manager/releases/5.0/RQM-Extras-RQMUrlUtil-5.0.zip
+
+All commands and scenario can be found here:
+https://jazz.net/wiki/bin/view/Main/RQMURLUtility
+
+It uses the RQM API
+https://jazz.net/wiki/bin/view/Main/RqmApi
+
+
+for starters:
+java -jar RQMUrlUtility.jar -help
+
+It handles the login and more for a specific RQm server and project.
+The idea is to create the xml you need for creating your desired artifacts, be it test cases plans etc.
+Then create a script that uses the URLUtility and make the upload/creation automatic.
+
