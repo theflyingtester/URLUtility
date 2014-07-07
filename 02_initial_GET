@@ -10,18 +10,25 @@ Test Plan: http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIn
 
 My server is called
 https://jazz.net/sandbox02-qm/web/console
-Since I am not yet sure what the excat URL for my project is I will do an initial GET to find out:
+Since I am not yet sure what the excat URL for my project is I will do an initial GET to find out about it:
 
 GET https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/projects
-gives me the Alias: asq%27s+Project+%28Quality+Management%29
-and the full URL I will use here for the 
+gives me the Alias:
+asq%27s+Project+%28Quality+Management%29
+and the full URL I will use for the 
 REST Client
 https://addons.mozilla.org/en-US/firefox/addon/restclient/
 before transfering everything into the 
-URLUtiliy
+URLUtility
 https://jazz.net/wiki/bin/view/Main/RQMURLUtility
 
 
+
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/projects/asq%27s+Project+%28Quality+Management%29
+
+From the article 
+I know I need to create an empty categoryType first.
+I will do a GET that lists all categoryTypes I have already.
 
 category?abbreviate=false
 
