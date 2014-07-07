@@ -8,6 +8,20 @@ Test Case: http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIn
 
 Test Plan: http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testplan/urn:com.ibm.rqm:testplan:TESTPLANID 
 
+My server is called
+https://jazz.net/sandbox02-qm/web/console
+Since I am not yet sure what the excat URL for my project is I will do an initial GET to find out:
+
+GET https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/projects
+gives me the Alias: asq%27s+Project+%28Quality+Management%29
+and the full URL I will use here for the 
+REST Client
+https://addons.mozilla.org/en-US/firefox/addon/restclient/
+before transfering everything into the 
+URLUtiliy
+https://jazz.net/wiki/bin/view/Main/RQMURLUtility
+
+
 
 category?abbreviate=false
 
