@@ -1,0 +1,13 @@
+
+The basics for a GET:
+
+
+In case you want to GET test case or plan, you need to GET those URI's
+
+Test Case: http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testcase/urn:com.ibm.rqm:testcase:TESTCASEID
+
+Test Plan: http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testplan/urn:com.ibm.rqm:testplan:TESTPLANID 
+
+
+category?abbreviate=false
+
