@@ -2,7 +2,8 @@
 The basics for a GET:
 
 
-In case you want to GET test case or plan, you need to GET those URI's
+In case you want to GET test case or plan, 
+you need to GET those URI's
 
 Test Case: http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testcase/urn:com.ibm.rqm:testcase:TESTCASEID
 
@@ -23,12 +24,10 @@ URLUtility
 https://jazz.net/wiki/bin/view/Main/RQMURLUtility
 
 
-
 https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/projects/asq%27s+Project+%28Quality+Management%29
 
-From the article 
-I know I need to create an empty categoryType first.
-I will do a GET that lists all categoryTypes I have already.
+From the article I already know I need to create an `empty' categoryType first.
+I will do a GET that lists all categoryTypes I have already to see how the xml needs to look like.
 
-category?abbreviate=false
+
 
