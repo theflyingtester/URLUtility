@@ -1,0 +1,165 @@
+A GET to
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType?abbreviated=false
+
+
+
+gives me te following categoryType feed data:
+
+
+<feed>
+<title type="text">
+categoryType ATOM feed for project area asq's Project (Quality Management)
+</title>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType
+</id>
+<link href= "https://jazz.net/sandbox02-qm/web/console/" rel="alternate"/>
+<link rel="self" href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType?abbreviated=false" />
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACA4YPrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Release</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACA4YPrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACA4aPrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Function</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACA4aPrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACA4cPrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Test Phase</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACA4cPrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACARUvrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Product</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACARUvrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACCGiPrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Function</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACCGiPrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACCGkPrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Test Phase</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACCGkPrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACDUovrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Function</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACDUovrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACDUqvrQEeOrZrzA7r5few
+</id>
+<updated>2014-06-23T12:15:00.832Z</updated>
+<title type="text">Test Phase</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_ACDUqvrQEeOrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_IZacMgA2EeSrZrzA7r5few
+</id>
+<updated>2014-06-30T09:08:41.973Z</updated>
+<title type="text">OurCategory</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_IZacMgA2EeSrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_Ia1YggA2EeSrZrzA7r5few
+</id>
+<updated>2014-06-30T09:08:41.973Z</updated>
+<title type="text">MyCategory</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_Ia1YggA2EeSrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+<entry>
+<id>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_IaokMAA2EeSrZrzA7r5few
+</id>
+<updated>2014-06-30T09:08:41.973Z</updated>
+<title type="text">YourCategory</title>
+<summary type="text"/>
+<link href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_IaokMAA2EeSrZrzA7r5few" rel="alternate" type="application/xml" title=""/>
+<link href= "https://jazz.net/sandbox02-qm/web/console/asq%27s%20Project%20%28Quality%20Management%29#action=com.ibm.rqm.planning.home.actionDispatcher&subAction=viewSystemProperties" rel="enclosure" type="text/html" title="Web Console"/>
+</entry>
+</feed>
+
+
+So I take one of the entries and do another GET to have a look at the details:
+I want to have a look at the IDs like _Ia1YggA2EeSrZrzA7r5few
+and see which fields are available.
+
+A GET https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_Ia1YggA2EeSrZrzA7r5few
+
+gives me
+
+
+<ns2:categoryType>
+<ns2:projectArea alias="asq%27s+Project+%28Quality+Management%29" href= "https://jazz.net/sandbox02-qm/resource/itemOid/com.ibm.team.process.ProjectArea/__1uI0vrPEeOrZrzA7r5few" />
+<ns3:identifier>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_Ia1YggA2EeSrZrzA7r5few
+</ns3:identifier>
+<ns5:updated>2014-06-30T09:08:41.973Z</ns5:updated>
+<ns3:title>MyCategory</ns3:title>
+<ns2:scope>TestPlan</ns2:scope>
+<ns2:required>false</ns2:required>
+<ns2:multiSelectable>false</ns2:multiSelectable>
+<ns2:dependsOn href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType:_IZacMgA2EeSrZrzA7r5few" />
+<ns2:valueset>
+<ns2:key href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/category/urn:com.ibm.rqm:category:_IaL4QgA2EeSrZrzA7r5few" />
+<ns2:value href= "https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/category/urn:com.ibm.rqm:category:_WWHAkAA2EeSrZrzA7r5few" />
+</ns2:valueset>
+</ns2:categoryType>
+
+I can see the required tag, the title, the scope, 
+but also the dependsOn which is the one not being accessible through the RQM Excel Importer.
+
+So I can make copies of this xml file. 
+Name it after my categories and chnage the title tag accordingly.
+See the files:
+
+in this project.
+.
