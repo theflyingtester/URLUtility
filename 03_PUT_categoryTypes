@@ -1,0 +1,17 @@
+
+
+If I do a PUT to 
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/OurCategoryType
+using my prepared xml 
+
+
+as the request body,
+RQM gives me a succesful
+Status Code: 201 Created response
+
+And I can do a corresponding GET to 
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/OurCategoryType
+and doublecheck the values:
+
+
+
