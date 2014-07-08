@@ -1,7 +1,14 @@
+ To determine the XML representation of a resource:
+
+    Read an existing resource as XML with option ?abbreviate=false.
+    Delete the read-only properties (see Detailed Schema Documentation for read-only properties).
+    Add/modify/delete the writable properties (see Detailed Schema Documentation for writable properties). 
+    
+
 A GET to
 https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType?abbreviated=false
 
-
+ 
 
 gives me te following categoryType feed data:
 
