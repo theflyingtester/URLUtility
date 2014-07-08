@@ -1,5 +1,5 @@
 
-The basics for a GET:
+The basics for a GET to RQM:
 
 
 In case you want to GET test case or plan, 
@@ -28,6 +28,7 @@ https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrati
 
 From the article I already know I need to create an `empty' categoryType first.
 I will do a GET that lists all categoryTypes I have already to see how the xml needs to look like.
+
 
 
 
