@@ -2,16 +2,15 @@
 
 If I do a PUT to 
 https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/OurCategoryType
-using my prepared xml 
-
-
+using my prepared xml:
+https://github.com/theflyingtester/URLUtility/blob/master/TestPlan_categoryType_OurCategory.xml
 as the request body,
 RQM gives me a succesful
 Status Code: 201 Created response
 
-And I can do a corresponding GET to 
+If I wanted to I can now send a corresponding GET to 
 https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/OurCategoryType
-and doublecheck the values:
+and doublecheck the values.
 
 
 
