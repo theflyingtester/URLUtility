@@ -1,0 +1,10 @@
+<ns2:categoryType>
+<ns2:projectArea alias="asq%27s+Project+%28Quality+Management%29" href= "https://jazz.net/sandbox02-qm/resource/itemOid/com.ibm.team.process.ProjectArea/__1uI0vrPEeOrZrzA7r5few" />
+<ns3:identifier>
+https://jazz.net/sandbox02-qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/asq%27s+Project+%28Quality+Management%29/categoryType/urn:com.ibm.rqm:categoryType</ns3:identifier>
+<ns5:updated>2014-06-30T09:08:41.973Z</ns5:updated>
+<ns3:title>OurCategory</ns3:title>
+<ns2:scope>TestPlan</ns2:scope>
+<ns2:required>false</ns2:required>
+<ns2:multiSelectable>false</ns2:multiSelectable>
+</ns2:categoryType>
