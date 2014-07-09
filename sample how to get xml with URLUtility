@@ -1,0 +1,35 @@
+To help us identify the root cause, I would like to suggest you to use
+the RESTClient to retrieve the XML form of the test case to see if the
+incorrect data retrieval is causing the said behavior.
+
+Please use the RQM utility called "RQMURLutility', a jar file which can
+be used to GET the XML format of the test case in RQM.
+Here are the steps :-
+
+a. Download the RQM url utility tool for RQM v4.0.5 from :
+
+https://jazz.net/downloads/rational-quality-manager/releases/4.0.5/RQM-Extras-RQMUrlUtil-4.0.5.zip
+
+b. Unzip the contents to a folder on the machine with access to the RQM
+v4.0.5 server.
+c. Open a command line, change directory to the folder containing the
+"RQMUrlUtility.jar" file.
+d. Run the command as below:
+
+java -jar RQMUrlUtility.jar -command GET -user clmadmin -password
+clmadmin -filepath C:\\tsuite.xml -url
+"
+https://clmserver:port/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/TestPrj
+(Quality
+Management)/testsuite/urn:com.ibm.rqm:testsuite:305"
+
+ NOTE : please replace the clm hostname, port and user, password,
+project name and the test suite number (testsuite:305 means the test
+suite to be exported to XML here is the test suite with id '305', check
+under "view test suites" for the test suite id) with the relevant
+details.
+
+Please share the following:-
+-- snapshots of the test suite showing the fields mentioned in your
+previous email
+-- xml file downloaded using steps above (tsuite.xml)
