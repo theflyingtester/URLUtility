@@ -7,7 +7,7 @@ http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationSe
 Test Plan: 
 http://SERVERNAME:PORT/qm/service/com.ibm.rqm.integration.service.IIntegrationService/resources/PROJECTNAME/testplan/urn:com.ibm.rqm:testplan
 
-The response will have a 200 OK return code and the xml returned will hold the id for the new artifact if your posted xml was good.
+The response will have a 200 OK return code if your posted xml was good.
 Start debugging when you see a different return code.
 
 If you write your own java code instead of using the URL utility
