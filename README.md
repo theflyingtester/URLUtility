@@ -14,5 +14,5 @@ Now go:
 
 https://github.com/theflyingtester/URLUtility/blob/master/01_start_here
 and pass by 
-https://github.com/theflyingtester/URLUtility/blob/master/do%20you%20get%20it%3F
+https://github.com/theflyingtester/URLUtility/blob/master/do_you_GET_it
 for download, install and 3 secs start up lines.
